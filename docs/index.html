@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How XBrowser Console handles browsing data, website requests, optional features and privacy enquiries.">
+  <meta name="theme-color" content="#121218">
+  <meta name="color-scheme" content="dark light">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Privacy policy · XBrowser Console</title>
+  <link rel="canonical" href="https://ibeatall.github.io/xbrowser-console/">
+  <link rel="icon" href="assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to privacy policy</a>
+  <header class="site-header">
+    <div class="brand"><img src="assets/icon.png" width="44" height="44" alt=""><span>XBrowser Console<small>Rookie Publishing</small></span></div>
+    <a href="mailto:xbrowserconsolesupport@gmail.com">Contact</a>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="intro">
+      <p class="eyebrow">Your browsing. Your choices.</p>
+      <h1>Privacy policy</h1>
+      <p class="lede">This policy explains how XBrowser Console handles information on your console, what goes to other services, and the controls available to you.</p>
+      <p class="date">Effective and last updated: <time datetime="2026-11-12">November 12, 2026</time></p>
+    </div>
+    <div class="layout">
+      <nav class="contents" aria-label="On this page">
+        <p>On this page</p>
+        <ol>
+          <li><a href="#about">About this policy</a></li>
+          <li><a href="#local-data">Data on your console</a></li>
+          <li><a href="#connections">Connections to other services</a></li>
+          <li><a href="#controls">Your controls</a></li>
+          <li><a href="#contact-data">Contacting us</a></li>
+          <li><a href="#website">This policy website</a></li>
+          <li><a href="#security">Security and sharing</a></li>
+          <li><a href="#children">Children and shared consoles</a></li>
+          <li><a href="#rights">Requests and changes</a></li>
+        </ol>
+      </nav>
+      <article>
+        <section id="about" aria-labelledby="about-title">
+          <h2 id="about-title">1. About this policy</h2>
+          <p>XBrowser Console (also called XBrowser) is published by <strong>Rookie Publishing</strong>. Contact us about this policy at <a href="mailto:xbrowserconsolesupport@gmail.com">xbrowserconsolesupport@gmail.com</a>.</p>
+          <p>The app does not operate a publisher browsing-data server, create an XBrowser account, synchronize your browsing data to us, or include publisher analytics or advertising. Browsing data is processed locally and by the websites and services described below. We receive information you choose to send us by email.</p>
+          <p>XBrowser is a web browser, not an anonymity service. Websites, search providers, your network provider and platform services may receive information when you use it. Their own privacy policies apply to their services.</p>
+        </section>
+        <section id="local-data" aria-labelledby="local-title">
+          <h2 id="local-title">2. Data on your console</h2>
+          <p>The app uses its local storage and the Microsoft WebView2 browser profile on your console for the following information:</p>
+          <dl class="data-list">
+            <div><dt>Tabs and recently closed pages</dt><dd>Page addresses, titles, tab order and the selected tab are saved to restore sessions. Up to 20 recently closed webpages can be retained for reopening. Turning off <em>Continue previous tabs</em> changes startup behavior; it does not stop session checkpoints from being saved.</dd></div>
+            <div><dt>History</dt><dd>When history recording is enabled, the app keeps up to 2,000 distinct addresses with titles, visit times and visit counts. History older than 90 days is removed during the app's history maintenance. Turning recording off does not remove existing history.</dd></div>
+            <div><dt>Bookmarks and preferences</dt><dd>Bookmarks, folders, home pins, browser settings, saved website preferences and remembered protection exceptions remain locally until changed or removed. Aggregate protection counters are saved without the browsing addresses that produced them.</dd></div>
+            <div><dt>Website data</dt><dd>WebView2 stores cookies, cache, local storage and related website data. These can include website sign-in tokens. XBrowser disables WebView2 password saving and autofill; websites still receive information you enter into their forms.</dd></div>
+            <div><dt>Icons and filter data</dt><dd>Website names and icons are cached locally, with up to 64 entries of each. Selected filter lists, downloaded rules and scriptlet definitions are also stored locally to provide blocking.</dd></div>
+          </dl>
+          <p>Page addresses can contain search terms or other sensitive information in their paths, query strings or fragments. XBrowser does not upload this local browsing library to Rookie Publishing.</p>
+        </section>
+        <section id="connections" aria-labelledby="connections-title">
+          <h2 id="connections-title">3. Connections to other services</h2>
+          <h3>Websites and searches</h3>
+          <p>Websites you visit receive browser requests, your IP address and information you submit, along with cookies or other information used by those websites. Submitted searches go to your selected search engine. Selecting a search action for highlighted text sends that text to the search provider. Website privacy practices, sign-ins and storage are governed by those websites.</p>
+          <h3>Optional search suggestions</h3>
+          <p>Remote search suggestions are off by default for a new profile. If you enable them, eligible text typed in the address bar or home search is sent to the selected search provider while you type. The provider receives the query text, IP address and the app's browser identification. XBrowser's suggestion requests do not include your website cookies or saved browsing-history list. Filters withhold pasted input and some sensitive patterns, but cannot recognize all sensitive text. Disable remote suggestions to stop these requests. Previously saved choices are retained.</p>
+          <h3>Website icons</h3>
+          <p>Icons for visited pages use WebView2. Optional automatic bookmark-icon fetching requests missing icons directly from bookmarked websites without attaching website cookies or default credentials. That option is off by default for a new profile; previously saved choices are retained.</p>
+          <h3>Protection updates</h3>
+          <p>Blocking runs locally. Selected filter lists are checked for updates daily while the app is active, including after resume when due. Scriptlet definitions are also checked from the public <a href="https://github.com/Ibeatall/Xbrowser-Scriptlets">Xbrowser-Scriptlets GitHub releases</a>, including after list selection changes. These downloads contain rule data; executable blocker code is included in the app.</p>
+          <p>Update hosts receive your IP address, the requested file paths and the updater's browser identification. The files requested can reveal which lists you selected. The app does not attach browsing history, visited-page addresses, website cookies or default credentials to these update requests. Blocking cannot guarantee that every advertising or tracking request is stopped.</p>
+          <h3>Microsoft services</h3>
+          <p>The app uses Microsoft WebView2 and Xbox services and leaves platform security features enabled. Microsoft may process browser, security, diagnostic or Store information under its own terms and settings. See the <a href="https://www.microsoft.com/en-us/privacy/privacystatement">Microsoft Privacy Statement</a>.</p>
+        </section>
+        <section id="controls" aria-labelledby="controls-title">
+          <h2 id="controls-title">4. Your controls</h2>
+          <ul>
+            <li><strong>Clear history</strong> removes the app's history and recently closed pages and requests WebView2 history deletion. Bookmarks, open tabs and website sign-ins are kept.</li>
+            <li><strong>Clear browsing data</strong> closes tabs, clears the saved session, history and remembered website preferences, and requests deletion of WebView2 browsing data, including cookies and cache. Bookmarks, general browser settings, filter configuration and downloaded filter data are kept. If deletion fails, the app reports that it could not fully clear the data.</li>
+            <li>Delete bookmarks and saved website preferences through their respective controls. History-only cached names and icons are removed when history is cleared; bookmark metadata may remain.</li>
+            <li>Turn off history recording, remote search suggestions or automatic bookmark-icon fetching in Settings. Local suggestions use open tabs, bookmarks and history on the console and have a separate setting.</li>
+          </ul>
+          <p>Clearing website data does not reset aggregate protection counters. Removal of the app's local data is managed through the platform's app controls. Local deletion does not delete information already held by a website, search engine or other service; use that service's own account or privacy controls.</p>
+          <p>Camera, microphone, location and webpage clipboard-read permission requests are denied by the app. Explicit copy, cut and paste commands use the platform clipboard; webpage clipboard writing is subject to the runtime's behavior.</p>
+        </section>
+        <section id="contact-data" aria-labelledby="contact-title">
+          <h2 id="contact-title">5. Contacting Rookie Publishing</h2>
+          <p>If you email <a href="mailto:xbrowserconsolesupport@gmail.com">xbrowserconsolesupport@gmail.com</a>, we receive your email address, the name your email service supplies, your message and any attachments you choose to include. We use this information to answer your enquiry, investigate the reported issue and keep necessary support records. Please send only information relevant to the issue.</p>
+          <p>The inbox is hosted by Gmail, so Google processes the correspondence as part of providing email services. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. Support correspondence is retained for as long as needed to address the enquiry and related support, security or legal obligations. You can contact the same address to request access, correction or deletion of information you sent us.</p>
+          <p>We cannot remotely retrieve or delete your local browsing data because the app does not upload it to a publisher service.</p>
+        </section>
+        <section id="website" aria-labelledby="website-title">
+          <h2 id="website-title">6. This policy website</h2>
+          <p>This page is hosted on GitHub Pages. It includes no publisher analytics, tracking scripts, advertising or forms. GitHub processes hosting requests and logs visitors' IP addresses for security purposes. See <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection</a> and the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+          <p>Following an external link takes you to that provider's website, where its privacy policy applies.</p>
+        </section>
+        <section id="security" aria-labelledby="security-title">
+          <h2 id="security-title">7. Security and sharing</h2>
+          <p>Local browser data uses the operating system's app storage and WebView2 protections. The app does not add a separate password or encryption layer to its local library files. Automatic rule downloads use HTTPS. Website connections use the address you visit; an HTTP website does not provide the transport protection of HTTPS.</p>
+          <p>Rookie Publishing does not sell local browsing data or use it for targeted advertising. Data is disclosed to the websites, search providers, update hosts, platform services and email/hosting providers described above as those features are used. Support information may also need to be disclosed to meet a legal obligation or address a security issue. Other providers may process information in countries outside your own under their policies.</p>
+        </section>
+        <section id="children" aria-labelledby="children-title">
+          <h2 id="children-title">8. Children and shared consoles</h2>
+          <p>XBrowser is a general-purpose browser and does not provide an XBrowser account for children or a dedicated parental-filtering service. Websites have their own content and data practices. Parents and guardians should supervise use and review available console and website controls. If you believe a child has sent personal information to our support inbox, contact us to request its removal.</p>
+          <p>If other people use your console, review and clear browser data and website sign-ins before sharing access. Closing a tab is not the same as deleting its cookies or stored website data.</p>
+        </section>
+        <section id="rights" aria-labelledby="rights-title">
+          <h2 id="rights-title">9. Privacy requests and policy changes</h2>
+          <p>Depending on where you live, you may have rights to access, correct or delete personal information, or to object to or restrict certain uses of it. For information held by Rookie Publishing, contact <a href="mailto:xbrowserconsolesupport@gmail.com">xbrowserconsolesupport@gmail.com</a>. We may need enough information to verify that a request concerns you. For data held by another provider, contact that provider. You may also have the right to contact your local data protection authority.</p>
+          <p>We will update this page when the app's practices change and revise the date at the top. The current policy remains available at this address.</p>
+        </section>
+      </article>
+    </div>
+  </main>
+  <footer><span>XBrowser Console · Rookie Publishing</span><a href="#main">Back to top ↑</a></footer>
+</body>
+</html>
